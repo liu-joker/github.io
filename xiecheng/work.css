@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+section {
+  background: green;
+  display: flex;
+  width: 100%;
+  height: 100% space-between;
+  flex-direction: column; }
+  section header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background: blueviolet;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    section header div {
+      height: 35px;
+      width: 335px;
+      line-height: 45px;
+      border-radius: 15px;
+      background: #fff;
+      margin-left: 15px; }
+      section header div .one {
+        width: 35px;
+        height: 100%; }
+        section header div .one:before {
+          width: 35px;
+          height: 100%;
+          left: 0;
+          top: 0;
+          background: url("//pic.c-ctrip.com/platform/h5/home/home-common-sprite2x@v7.15.png"); }
+      section header div .two {
+        width: 28px;
+        height: 35px; }
+        section header div .two:before {
+          width: 20px; }
+  section aside {
+    background: blue;
+    flex-direction: column;
+    flex: 1;
+    height: 722px; }
+    section aside nav {
+      flex-direction: column;
+      flex: 1;
+      height: 100%;
+      width: 100%; }
+  section footer {
+    width: 100%;
+    height: 50px;
+    background: red;
+    justify-content: center; }
